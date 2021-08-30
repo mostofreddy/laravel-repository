@@ -1,0 +1,58 @@
+{
+    "name": "resty/laravel-repository",
+    "description": "Laravel repository pattern",
+    "keywords": [
+        "laravel",
+        "repository",
+        "repositories",
+        "eloquent",
+        "orm",
+        "model",
+        "pattern",
+        "database"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Federico Lozada Mosto",
+            "email": "mosto.federico@gmail.com",
+            "homepage": "https://github.com/mostofreddy"
+        }
+    ],
+    "homepage": "https://github.com/mostofreddy/laravel-repository",
+    "support": {
+        "email": "mosto.federico@gmail.com",
+        "issues": "https://github.com/mostofreddy/laravel-repository/issues",
+        "source": "https://github.com/mostofreddy/laravel-repository"
+    },
+    "require": {
+        "php": "^8.0"
+    },
+    "require-dev": {
+        "laravel/laravel": "8.*",
+        "squizlabs/php_codesniffer": "3.6.*",
+        "phpunit/phpunit": "9.5.*",
+        "mockery/mockery": "1.4.*",
+        "fakerphp/faker": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "Resty\\Lrepo\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Resty\\Lrepo\\Test\\": "tests/"
+        }
+    },
+    "config": {
+        "preferred-install": "dist",
+        "optimize-autoloader": true,
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
