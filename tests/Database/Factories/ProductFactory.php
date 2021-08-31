@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Resty\Lrepo\Test\Database\Factories;
+namespace Mostofreddy\Lrepo\Test\Database\Factories;
 
-use Resty\Lrepo\Test\Models\Products;
+use Mostofreddy\Lrepo\Test\Models\Products;
 use Illuminate\Database\Eloquent\Factories\Factory;
 
 class ProductFactory extends Factory

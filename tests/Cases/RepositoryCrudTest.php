@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace Resty\Lrepo\Test\Cases;
+namespace Mostofreddy\Lrepo\Test\Cases;
 
-use Resty\Lrepo\Test\Models\Products;
-use Resty\Lrepo\Test\TestCase;
-use Resty\Lrepo\Test\Repositories\ProductsRepository;
+use Mostofreddy\Lrepo\Test\Models\Products;
+use Mostofreddy\Lrepo\Test\TestCase;
+use Mostofreddy\Lrepo\Test\Repositories\ProductsRepository;
 
 final class RepositoryCrudTest extends TestCase
 {

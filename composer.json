@@ -1,5 +1,5 @@
 {
-    "name": "resty/laravel-repository",
+    "name": "mostofreddy/laravel-repository",
     "description": "Laravel repository pattern",
     "keywords": [
         "laravel",
@@ -37,7 +37,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Resty\\Lrepo\\": "src/"
+            "Mostofreddy\\Lrepo\\": "src/"
         },
         "files": [
             "src/helpers.php"
@@ -45,7 +45,7 @@
     },
     "autoload-dev": {
         "psr-4": {
-            "Resty\\Lrepo\\Test\\": "tests/"
+            "Mostofreddy\\Lrepo\\Test\\": "tests/"
         }
     },
     "config": {

@@ -1,9 +1,9 @@
 <?php
 
-namespace Resty\Lrepo\Test\Repositories;
+namespace Mostofreddy\Lrepo\Test\Repositories;
 
-use Resty\Lrepo\Test\Models\Products;
-use Resty\Lrepo\EloquentRepository;
+use Mostofreddy\Lrepo\Test\Models\Products;
+use Mostofreddy\Lrepo\EloquentRepository;
 
 class ProductsRepository extends EloquentRepository
 {

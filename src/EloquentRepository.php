@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace Resty\Lrepo;
+namespace Mostofreddy\Lrepo;
 
-use Resty\Lrepo\Concerns\{
+use Mostofreddy\Lrepo\Concerns\{
     EloquentRepository as EloquentRepositoryConcern,
     EloquentCrudRepository as EloquentCrudRepositoryConcern
 };
-use Resty\Lrepo\Contracts\{
+use Mostofreddy\Lrepo\Contracts\{
     Repository as RepositoryInterface,
     CrudRepository as CrudRepositoryInterface
 };

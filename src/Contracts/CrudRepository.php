@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Resty\Lrepo\Contracts;
+namespace Mostofreddy\Lrepo\Contracts;
 
 use Illuminate\Database\Eloquent\Model;
 

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Resty\Lrepo\Test;
+namespace Mostofreddy\Lrepo\Test;
 
 use Illuminate\Contracts\Console\Kernel;
 use Illuminate\Filesystem\Filesystem;

@@ -2,10 +2,10 @@
 
 declare(strict_types=1);
 
-namespace Resty\Lrepo\Concerns;
+namespace Mostofreddy\Lrepo\Concerns;
 
 use Illuminate\Database\Eloquent\Model;
-use Resty\Lrepo\Concerns\EloquentRepository;
+use Mostofreddy\Lrepo\Concerns\EloquentRepository;
 
 trait EloquentCrudRepository
 {
